@@ -13,19 +13,32 @@
     background-color: crimson;
     text-align: center;
 
+
 }
 
 .classes {
     background-color: white;
     float: left;
-    width: 24%;
+    max-width: 25%;
     padding: 1px;
     text-align: center;
     margin: 0px;
+    border:  2px;
+    border-color: teal;
+    border-style: solid;
+    border-radius: 15px;
 
 }
 
 .classes-img {
-    background-color: black;
-    padding: 1px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+    
+
+    
+}
+.classes-img:hover {
+    opacity:  0.5;
 }
